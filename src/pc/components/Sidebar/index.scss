@@ -1,14 +1,8 @@
 @keyframes fade-sidebar
 {
-  0% {
-
-  }
   50% {
     right: 0;
     opacity: .35;
-  }
-  100% {
-
   }
 }
 
@@ -16,7 +10,7 @@
   position: fixed;
   width: 48px;
   height: 560px;
-  top: 55px;
+  top: 70px;
   right: 30px;
   border-radius: 12px;
   background: #f94141;

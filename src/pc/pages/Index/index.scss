@@ -1,0 +1,56 @@
+.index {
+  
+  .max {
+    width: 100%;
+    height: 100%;
+  }
+
+  div {
+    outline: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: 30px;
+  }
+  .slick-dots li.slick-active button:before {
+    color: #f94141;
+    opacity: 1;
+  }
+  .slick-dots li button::before {
+    color: #867ec0;
+    opacity: 1;
+  }
+  .button {
+    width: 33px;
+    height: 50px;
+    position: absolute;
+    z-index: 999;
+    top: 45%;
+    cursor: pointer;
+    opacity: .6;
+    transition: all .3s;
+
+    &:hover {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+  }
+  .prev {
+    left: 50px;
+    background: url('../../../assets/left.png');
+    background-size: 100% 100%;
+  }
+  .next {
+    right: 95px;
+    background: url('../../../assets/right.png');
+    background-size: 100% 100%;
+  }
+}
