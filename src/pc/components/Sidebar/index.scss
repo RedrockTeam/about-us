@@ -1,0 +1,77 @@
+@keyframes fade-sidebar
+{
+  0% {
+
+  }
+  50% {
+    right: 0;
+    opacity: .35;
+  }
+  100% {
+
+  }
+}
+
+.sidebar {
+  position: fixed;
+  width: 48px;
+  height: 560px;
+  top: 55px;
+  right: 30px;
+  border-radius: 12px;
+  background: #f94141;
+  color: #fff;
+  font-size: 15px;
+  z-index: 999;
+
+  .inner-sidebar {
+    width: 100%;
+    height: 490px;
+    flex-flow: column;
+    align-items: center;
+
+    .index {
+      width: 23px;
+      height: 24px;
+      background: url('../../../assets/home.png');
+      background-size: 100% 100%;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: all .3s;
+
+      &:hover {
+        background: url('../../../assets/home-active.png');
+        background-size: 100% 100%;
+      }
+    }
+    
+    .index-active {
+      background: url('../../../assets/home-active.png');
+      background-size: 100% 100%;
+    }
+
+    .text-box {
+      width: 18px;
+      padding: 7px 0;
+      border-bottom: solid rgba(255, 255, 255, 0) 2px;
+      cursor: pointer;
+      transition: all .3s;
+
+      &:hover {
+        border-bottom: solid #fff 2px;
+      }
+    }
+
+    .text-box-active {
+      border-bottom: solid #fff 2px;
+    }
+
+    .link {
+      width: 15px;
+    }
+  }
+}
+
+.fade-sidebar {
+  animation: fade-sidebar 1s ease;
+}

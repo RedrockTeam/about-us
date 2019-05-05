@@ -1,9 +1,9 @@
 import React from 'react'
 import './index.scss'
 
-export const Aboutus = () => {
+export const Aboutus = props => {
   
   return (
-    <div>aboutus</div>
+    <div className={`aboutus page ${props.className}`}>aboutus</div>
   )
 }
