@@ -10,11 +10,11 @@ export const Header = () => {
       <div className="inner-header flex-between">
         <div className="logo"></div>
         <div className="link">
-          <a href="#">
+          <a href="http://baidu.com">
             <div className="joinus flex-center">加入我们</div>
           </a>
           <div className="line"></div>
-          <a href="#">
+          <a href="http://baidu.com">
             <div className="redrock flex-center">红岩网校</div>
           </a>
         </div>

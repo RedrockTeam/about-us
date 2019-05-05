@@ -1,0 +1,14 @@
+footer {
+  width: 100%;
+  height: 46px;
+  position: fixed;
+  bottom: 0;
+  font-size: 14px;
+  color: #322d98;
+
+  .inner-footer {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+  }
+}

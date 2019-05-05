@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { Context } from "../../Context"
 import Slider from 'react-slick'
 import './index.scss'
 
 export const Index = props => {
+  const { carousel } = useContext(Context)
+
   const setting = {
     dots: true,
     infinite: true,
@@ -19,15 +22,15 @@ export const Index = props => {
   return (
     <div className={`index page ${props.className}`}>
       <Slider {...setting}>
-        <div>
-          <img src={require('../../../assets/banner/1.png')} />
-        </div>
-        <div>
-          <img src={require('../../../assets/banner/2.png')} />
-        </div>
-        <div>
-          <img src={require('../../../assets/banner/3.png')} />
-        </div>
+        {
+          carousel.map((e, i) => {
+            return (
+              <div>
+                <img src={e} key={i} alt="" />
+              </div>
+            )
+          })
+        }
       </Slider>
     </div>
   )
