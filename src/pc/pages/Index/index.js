@@ -25,8 +25,8 @@ export const Index = props => {
         {
           carousel.map((e, i) => {
             return (
-              <div>
-                <img src={e} key={i} alt="" />
+              <div key={i}>
+                <img src={e} alt="" />
               </div>
             )
           })

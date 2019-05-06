@@ -1,0 +1,82 @@
+.product {
+  background: #fafafa;
+
+  .inner-container {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 140px;
+
+    .intro {
+      color: #7f7f7f;
+      text-align: center;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .carousel {
+      width: 1000px;
+      //height: 390px;
+      //background: red;
+      margin: 0 auto;
+      margin-top: 15px;
+
+      div {
+        outline: none;
+      }
+
+      .card {
+        width: 480px;
+        height: 340px;
+        //background: skyblue;
+
+        .inner-card {
+          width: 460px;
+          height: 300px;
+          position: relative;
+          left: 20px;
+          top: 20px;
+          border-radius: 5px;
+          background: #fff;
+          box-shadow: 0px 2px 6px 1px rgba(26, 26, 26, .1);
+        }
+      }
+    }
+  }
+
+  .slick-dots {
+    position: relative;
+    top: 30px;
+  }
+  .slick-dots li.slick-active button:before {
+    color: #9766d0;
+    opacity: 1;
+  }
+  .slick-dots li button::before {
+    color: #cacaca;
+    opacity: 1;
+  }
+  .button {
+    width: 22px;
+    height: 36px;
+    position: absolute;
+    z-index: 999;
+    top: 150px;
+    cursor: pointer;
+    transition: all .3s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  .prev {
+    left: -35px;
+    background: url('../../../assets/left2.png');
+    background-size: 100% 100%;
+  }
+  .next {
+    right: -30px;
+    background: url('../../../assets/right2.png');
+    background-size: 100% 100%;
+  }
+}

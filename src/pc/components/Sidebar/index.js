@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { Context } from '../../Context'
 import './index.scss'
 
 export const Sidebar = props => {
   const { index, isScrolling, setCurrentIndex } = props
-
+  const { title } = useContext(Context)
   const setClass = i => `text-box flex-center ${index === i && 'text-box-active'}`
 
   return (
@@ -18,31 +19,31 @@ export const Sidebar = props => {
           className={setClass(2)}
           onClick={() => setCurrentIndex(2)}
         >
-          <div className="link">关于我们</div>
+          <div className="link">{title.aboutus}</div>
         </div>
         <div
           className={setClass(3)}
           onClick={() => setCurrentIndex(3)}
         >
-          <div className="link">成果展示</div>
+          <div className="link">{title.product}</div>
         </div>
         <div
          className={setClass(4)}
          onClick={() => setCurrentIndex(4)} 
         >
-          <div className="link">部门构成</div>
+          <div className="link">{title.department}</div>
         </div>
         <div
          className={setClass(5)}
          onClick={() => setCurrentIndex(5)}
         >
-          <div className="link">毕业去向</div>
+          <div className="link">{title.destination}</div>
         </div>
         <div
           className={setClass(6)}
           onClick={() => setCurrentIndex(6)}
         >
-          <div className="link">加入我们</div>
+          <div className="link">{title.joinus}</div>
         </div>
       </div>
     </div>
