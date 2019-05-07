@@ -6,7 +6,7 @@ import './index.scss'
 export const Index = props => {
   const { carousel } = useContext(Context)
 
-  const setting = {
+  const settings = {
     dots: true,
     infinite: true,
     slidesToShow: 1,
@@ -21,7 +21,7 @@ export const Index = props => {
   
   return (
     <div className={`index page ${props.className}`}>
-      <Slider {...setting}>
+      <Slider {...settings}>
         {
           carousel.map((e, i) => {
             return (
