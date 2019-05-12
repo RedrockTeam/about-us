@@ -1,0 +1,59 @@
+.aboutus {
+
+  .icon-list {
+    width: 1000px;
+    position: relative;
+    top: 185px;
+
+    .line {
+      width: 1px;
+      height: 50px;
+      background: #afaeae;
+      opacity: .7;
+      margin: 0 14px;
+    }
+
+    .icon {
+      width: 142px;
+      height: 142px;
+      //margin-right: 20px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .copywriting {
+    width: 940px;
+    position: relative;
+    top: 244px;
+    margin: 0 auto;
+    color: #847dc7;
+    font-size: 14px;
+    line-height: 28px;
+    text-indent: 28px;
+  }
+
+  .bg {
+    width: 700px;
+    height: 620px;
+    background: url('../../../assets/ab-bg.png');
+    background-size: 100% 100%;
+    position: fixed;
+    right: 0;
+    top: 40px;
+    z-index: -1;
+  }
+
+  .quotes {
+    width: 1000px;
+    height: 200px;
+    background: url('../../../assets/quotes.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 370px;
+    z-index: -1;
+  }
+}

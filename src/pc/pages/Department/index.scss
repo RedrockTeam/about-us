@@ -1,0 +1,153 @@
+.department {
+  .title {
+    z-index: 3;
+    color: #fff;
+    top: 80px;
+  }
+
+  .carousel {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+
+    div {
+      width: 100%;
+      outline: none;
+      height: 100% !important;
+    }
+
+    .side {
+      width: 100%;
+      height: 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .mark {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+      }
+
+      .card {
+        width: 460px;
+        height: 200px !important;
+        position: relative;
+        top: -220px;
+        left: 65px;
+        color: #fff;
+
+        .line {
+          width: 4px;
+          height: 22px !important;
+          background: #fb4d4d;
+          border-radius: 10px;
+          margin-right: 14px;
+        }
+
+        .name {
+          font-size: 26px;
+          display: flex;
+          align-items: center;
+          margin: 0;
+        }
+
+        .introduction {
+          font-size: 16px;
+          line-height: 26px;
+          margin-top: 22px;
+        }
+      }
+    }
+  }
+
+  .vertical-dots {
+    right: 130px;
+    list-style: none;
+    display: block;
+    position: absolute;
+    top: 26px;
+    text-align: right;
+    z-index: 9;
+  }
+  .vertical-dots li {
+    position: relative;
+    width: 62px;
+    height: 62px;
+    margin-top: 35px;
+    cursor: pointer;
+  }
+  .vertical-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 62px;
+    height: 62px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+    background: url('../../../assets/button/1.png');
+    background-size: 100% 100%;
+    transition: all .3s;
+  }
+  .vertical-dots li button:hover,
+  .vertical-dots li button:focus {
+    outline: none;
+  }
+  .vertical-dots li button:hover:before,
+  .vertical-dots li button:focus:before {
+    opacity: 1;
+  }
+  .vertical-dots li.slick-active button:before {
+    opacity: 0.75;
+    color: black;
+  }
+  .vertical-dots li:nth-child(2) button {
+    background: url('../../../assets/button/2.png');
+    background-size: 100% 100%;
+  }
+  .vertical-dots li:nth-child(3) button {
+    background: url('../../../assets/button/3.png');
+    background-size: 100% 100%;
+  }
+  .vertical-dots li:nth-child(4) button {
+    background: url('../../../assets/button/4.png');
+    background-size: 100% 100%;
+  }
+  .vertical-dots li:nth-child(5) button {
+    background: url('../../../assets/button/5.png');
+    background-size: 100% 100%;
+  }
+  .vertical-dots li:nth-child(6) button {
+    background: url('../../../assets/button/6.png');
+    background-size: 100% 100%;
+  }
+  .vertical-dots li.slick-active:nth-child(1) button {
+    background: url('../../../assets/button/1-active.png');
+    background-size: 100% 100%;
+  }
+  .vertical-dots li.slick-active:nth-child(2) button {
+    background: url('../../../assets/button/2-active.png');
+    background-size: 100% 100%;
+  }
+  .vertical-dots li.slick-active:nth-child(3) button {
+    background: url('../../../assets/button/3-active.png');
+    background-size: 100% 100%;
+  }
+  .vertical-dots li.slick-active:nth-child(4) button {
+    background: url('../../../assets/button/4-active.png');
+    background-size: 100% 100%;
+  }
+  .vertical-dots li.slick-active:nth-child(5) button {
+    background: url('../../../assets/button/5-active.png');
+    background-size: 100% 100%;
+  }
+  .vertical-dots li.slick-active:nth-child(6) button {
+    background: url('../../../assets/button/6-active.png');
+    background-size: 100% 100%;
+  }
+}

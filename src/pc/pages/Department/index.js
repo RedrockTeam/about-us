@@ -1,9 +1,48 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { Context } from '../../Context'
+import Slider from 'react-slick'
 import './index.scss'
 
 export const Department = props => {
+  const { title, department } = useContext(Context)
+  const settings = {
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    vertical: true,
+    verticalSwiping: true,
+    dotsClass:"vertical-dots",
+    speed: 1000
+  }
   
   return (
-    <div className={`department page ${props.className}`}>Department</div>
+    <div className={`department page ${props.className}`}>
+      <div className="title">{title.department}</div>
+      <div className="carousel">
+        <Slider {...settings}>
+          {
+            department.map((e, i) => (
+              <div>
+                <div className="side">
+                  <div className="mark"></div>
+                  <img src={e.photo} alt=""></img>
+                  <div className="card">
+                    <p className="name">
+                      <div className="line"></div>
+                      {e.name}
+                    </p>
+                    <p className="introduction">
+                      {e.introduction}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))
+          }
+        </Slider>
+      </div>
+    </div>
   )
 }
