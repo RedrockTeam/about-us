@@ -9,14 +9,34 @@
     .card {
       width: 400px;
       height: 450px;
-      background: skyblue;
+      //background: skyblue;
       position: relative;
       left: 50px;
 
       .row {
         width: 100%;
         height: 37.5px;
+        display: flex;
+        align-items: center;
+      }
 
+      .year {
+        color: #f27f7f;
+        font-size: 15px;
+      }
+
+      .line {
+        width: 3px;
+        height: 12px;
+        background: #fb4d4d;
+        border-radius: 6px;
+        margin-right: 12px;
+      }
+
+      .member {
+        justify-content: space-between;
+        color: #666666;
+        font-size: 15px;
       }
     }
   }

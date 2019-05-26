@@ -1,4 +1,4 @@
 import { copywritingData } from './copywriting'
-import { destinationData } from './destination'
+import { destinationData as destination } from './destination'
 
-export const publicData = Object.assign({}, copywritingData, destinationData)
+export const publicData = Object.assign({}, copywritingData, destination)

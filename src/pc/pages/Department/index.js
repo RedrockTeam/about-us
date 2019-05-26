@@ -24,13 +24,13 @@ export const Department = props => {
         <Slider {...settings}>
           {
             department.map((e, i) => (
-              <div>
+              <div key={i}>
                 <div className="side">
                   <div className="mark"></div>
                   <img src={e.photo} alt=""></img>
                   <div className="card">
                     <p className="name">
-                      <div className="line"></div>
+                      <span className="line"></span>
                       {e.name}
                     </p>
                     <p className="introduction">
