@@ -12,7 +12,7 @@ export const products = {
       subtitle: '移动应用',
       intro: '重邮首款完美整合校园信息与生活的APP。每日课表、志愿时长、校车查询……从线上到线下，全方位辅助重邮学子的日常生活！',
       picture: require('../../assets/product/zscy.png'),
-      background: '#6d9bfb'
+      background: 'rgb(97, 171, 255)'
     },
     {
       title: '网址大全',
