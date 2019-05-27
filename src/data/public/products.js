@@ -16,7 +16,7 @@ export const products = {
     },
     {
       title: '网址大全',
-      subtitle: '',
+      subtitle: '校内导航',
       intro: '重邮校内各大讯息网址站点汇聚一全，一站网址大全通重邮全网，为广大重邮师生提供一站式服务。',
       picture: require('../../assets/product/wzdq.png'),
       background: '#5785fb'
