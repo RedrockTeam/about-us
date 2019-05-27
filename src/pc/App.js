@@ -7,21 +7,18 @@ import {
   Product,
   Joinus
 } from "./pages"
-import {
-  Header,
-  Sidebar
-} from "./components"
+import { Header, Sidebar } from "./components"
 import "./scss/normalize.scss"
 import "./scss/global.scss"
 
 export const App = () => {
   const [currentIndex, setCurrentIndex] = useState(1)
   const [isScrolling, setIsScrolling] = useState(false)
+  const [headerActive, setHeaderActive] = useState(false)
 
   useEffect(() => {
     window.onmousewheel = e => {
       e.stopPropagation()
-      //e.preventDefault()
 
       if (e.wheelDelta < -30 && !isScrolling) {
         if (currentIndex === 6) return
@@ -34,11 +31,19 @@ export const App = () => {
   })
 
   useEffect(() => {
+    // setTimeout(() => {
+      if (currentIndex === 1 || currentIndex === 4) {
+        setHeaderActive(false)
+      } else {
+        setHeaderActive(true)
+      }
+    // }, 800)
+    console.log(currentIndex)
     return () => {
       setIsScrolling(true)
-    setTimeout(() => {
-      setIsScrolling(false)
-    }, 1000)
+      setTimeout(() => {
+        setIsScrolling(false)
+      }, 1000)
     }
   }, [currentIndex])
 
@@ -50,7 +55,9 @@ export const App = () => {
 
   return (
     <>
-      <Header />
+      <Header
+        active={headerActive}
+      />
       <Sidebar
         index={currentIndex}
         isScrolling={isScrolling}

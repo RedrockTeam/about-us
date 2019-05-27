@@ -16,7 +16,6 @@ export const Destination = props => {
     prevArrow: <PrevArrow />
   }
   const destinations = parseDestination(destination)
-  console.log(destinations)
   
   return (
     <div className={`destination page ${props.className}`}>
@@ -25,30 +24,6 @@ export const Destination = props => {
         <div className="carousel">
           <Slider {...settings}>
             {
-              // [...new Array(5)].map(() => (
-              //   <div>
-              //     <div className="card">
-              //       <div className="row year">
-              //         <div className="line"></div>
-              //         2013级
-              //       </div>
-              //       <div className="row member">
-              //         <div className="name">哈哈哈</div>
-              //         <div className="place">腾讯科技(深圳)有限公司</div>
-              //       </div>
-              //       <div className="row">3</div>
-              //       <div className="row">3</div>
-              //       <div className="row">3</div>
-              //       <div className="row">3</div>
-              //       <div className="row">3</div>
-              //       <div className="row">3</div>
-              //       <div className="row">3</div>
-              //       <div className="row">3</div>
-              //       <div className="row">3</div>
-              //       <div className="row">3</div>
-              //     </div>
-              //   </div>
-              // ))
               destinations.map((column, i) => (
                 <div key={i}>
                   <div className="card">

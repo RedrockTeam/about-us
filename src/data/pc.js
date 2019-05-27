@@ -6,12 +6,22 @@ export const pcData = {
     destination: '成员去向',
     joinus: '加入我们'
   },
+  header: {
+    button1: {
+      text: '加入我们',
+      website: 'https://hongyan.cqupt.edu.cn/joinus2017/'
+    },
+    button2: {
+      text: '红岩网校',
+      website: 'https://hongyan.cqupt.edu.cn/'
+    }
+  },
   joinus: {
     p1: '我们正在做的就是以后可以跟别人侃侃而谈的故事',
     p2: 'Be A Redrocker！',
     button: {
       text: '加入我们',
-      website: 'http://baidu.com/'
+      website: 'https://hongyan.cqupt.edu.cn/joinus2017/'
     }
   },
   product: {

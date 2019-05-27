@@ -5,11 +5,15 @@
     width: 1000px;
     position: relative;
     top: 160px;
+    cursor: pointer;
+
+    div {
+      outline: none;
+    }
 
     .card {
       width: 400px;
       height: 450px;
-      //background: skyblue;
       position: relative;
       left: 50px;
 
