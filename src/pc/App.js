@@ -31,14 +31,11 @@ export const App = () => {
   })
 
   useEffect(() => {
-    // setTimeout(() => {
-      if (currentIndex === 1 || currentIndex === 4) {
-        setHeaderActive(false)
-      } else {
-        setHeaderActive(true)
-      }
-    // }, 800)
-    console.log(currentIndex)
+    if (currentIndex === 1 || currentIndex === 4) {
+      setHeaderActive(false)
+    } else {
+      setHeaderActive(true)
+    }
     return () => {
       setIsScrolling(true)
       setTimeout(() => {
@@ -55,9 +52,7 @@ export const App = () => {
 
   return (
     <>
-      <Header
-        active={headerActive}
-      />
+      <Header active={headerActive} />
       <Sidebar
         index={currentIndex}
         isScrolling={isScrolling}
