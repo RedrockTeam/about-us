@@ -10,8 +10,17 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      charset="UTF-8"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+    />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -37,4 +46,29 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+  <script src="https://wx.idsbllp.cn/wx-api/share.js"></script>
+  <script>
+    WXSHARE.config({ debug: false })
+    WXSHARE.ready(function() {
+      var option = {
+        title: "红岩网校 - 关于我们",
+        link: "https://hongyan.cqupt.edu.cn/aboutus/",
+        imgUrl: "https://hongyan.cqupt.edu.cn/aboutus/favicon.ico",
+        desc: "红岩网校工作站介绍网站",
+        type: "",
+        success: function() {
+          console.log("分享成功")
+        },
+        cancel: function() {
+          console.log("取消分享")
+        }
+      }
+      wx.onMenuShareTimeline(option)
+      wx.onMenuShareAppMessage(option)
+      wx.onMenuShareQQ(option)
+      wx.onMenuShareWeibo(option)
+      wx.onMenuShareQZone(option)
+    })
+  </script>
 </html>
