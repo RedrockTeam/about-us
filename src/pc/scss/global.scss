@@ -1,3 +1,12 @@
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -53,4 +62,8 @@ a {
   top: 60px;
   color: #322d98;
   font-size: 28px;
+}
+
+.fade {
+  animation: fade 1.5s ease;
 }

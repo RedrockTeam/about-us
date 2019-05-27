@@ -6,8 +6,7 @@ export const copywritingData = {
   },
   carousel: [
     require('../../assets/banner/1.png'),
-    require('../../assets/banner/2.png'),
-    require('../../assets/banner/3.png')
+    require('../../assets/banner/2.png')
   ],
   department: [
     {

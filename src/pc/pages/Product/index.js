@@ -30,7 +30,7 @@ export const Product = props => {
                 const { title, subtitle, intro, picture, background } = product
 
                 return (
-                  <div>
+                  <div key={i}>
                     <div className="card">
                       <div className="inner-card">
                         <div

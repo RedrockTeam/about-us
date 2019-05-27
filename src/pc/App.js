@@ -45,7 +45,7 @@ export const App = () => {
   }, [currentIndex])
 
   const setClass = index => {
-    if (currentIndex === index) return "currentPage"
+    if (currentIndex === index) return "currentPage fade"
     else if (currentIndex > index) return "prePage"
     else if (currentIndex < index) return "nextPage"
   }
