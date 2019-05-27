@@ -58,21 +58,20 @@
               text-align: center;
               color: #322d98;
               font-size: 18px;
-              margin-top: 13px;
             }
 
             .subtitle {
               text-align: center;
               color: #847dc7;
               font-size: 14px;
-              margin-top: 3px;
+              margin-left: 30px;
             }
 
             .product-intro {
               color: #847dc7;
               font-size: 14px;
-              margin-top: 8px;
-              line-height: 22px;
+              margin-top: 10px;
+              line-height: 24px;
             }
           }
         }
@@ -114,5 +113,10 @@
     right: -30px;
     background: url('../../../assets/right2.png');
     background-size: 100% 100%;
+  }
+  .alltitle {
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
   }
 }

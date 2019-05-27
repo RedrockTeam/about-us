@@ -43,6 +43,11 @@ export const Department = props => {
           }
         </Slider>
       </div>
+      <div className="lines line1"></div>
+      <div className="lines line2"></div>
+      <div className="lines line3"></div>
+      <div className="lines line4"></div>
+      <div className="lines line5"></div>
     </div>
   )
 }

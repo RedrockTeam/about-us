@@ -40,8 +40,10 @@ export const Product = props => {
                           <img src={picture} alt="" />
                         </div>
                         <div className="copywriting">
-                          <div className="product-title">{title}</div>
-                          <div className="subtitle">{subtitle}</div>
+                          <div className="alltitle">
+                            <div className="product-title">{title}</div>
+                            <div className="subtitle">{subtitle}</div>
+                          </div>
                           <div className="product-intro">{intro}</div>
                         </div>
                       </div>

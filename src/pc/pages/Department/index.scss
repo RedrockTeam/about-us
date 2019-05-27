@@ -151,3 +151,32 @@
     background-size: 100% 100%;
   }
 }
+
+.lines {
+  height: 22px;
+  width: 2px;
+  background: #fff;
+  position: absolute;
+  right: 160px;
+  opacity: .8;
+}
+
+.line1 {
+  top: 146px;
+}
+
+.line2 {
+  top: 242px;
+}
+
+.line3 {
+  top: 339px;
+}
+
+.line4 {
+  top: 435px;
+}
+
+.line5 {
+  top: 535px;
+}
