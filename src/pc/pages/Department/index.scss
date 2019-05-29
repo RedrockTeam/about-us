@@ -67,7 +67,8 @@
     list-style: none;
     display: block;
     position: absolute;
-    top: 26px;
+    top: 50%;
+    transform: translateY(-56%);
     text-align: right;
     z-index: 9;
   }
@@ -156,27 +157,32 @@
   height: 22px;
   width: 2px;
   background: #fff;
-  position: absolute;
+  position: fixed;
   right: 160px;
   opacity: .8;
 }
 
 .line1 {
-  top: 146px;
+  top: 50%;
+  transform: translateY(-206px);
 }
 
 .line2 {
-  top: 242px;
+  top: 50%;
+  transform: translateY(-110px);
 }
 
 .line3 {
-  top: 339px;
+  top: 50%;
+  transform: translateY(-12px);
 }
 
 .line4 {
-  top: 435px;
+  top: 50%;
+  transform: translateY(84px);
 }
 
 .line5 {
-  top: 535px;
+  top: 50%;
+  transform: translateY(182px);
 }

@@ -10,7 +10,8 @@
   position: fixed;
   width: 48px;
   height: 560px;
-  top: 70px;
+  top: 50%;
+  transform: translateY(-50%);
   right: 30px;
   border-radius: 12px;
   background: rgba(249, 65, 65, .8);
