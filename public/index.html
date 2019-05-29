@@ -10,6 +10,18 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script>
+      // location.href.split('/').splice(-1)[0] 为当前index.html或mobile.html页面
+      if (location.href.split('/').splice(-1)[0] !== 'mobile.html') {
+        if (/mobile/i.test(navigator.userAgent)) {
+          location.href = './mobile.html'
+        }
+      } else {
+        if (!(/mobile/i.test(navigator.userAgent))) {
+          location.href = './'
+        }
+      }
+    </script>
     <link
       rel="stylesheet"
       type="text/css"
