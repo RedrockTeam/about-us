@@ -308,7 +308,7 @@ export const destinationData = {
       members: [
         {
           name: "刘文栖",
-          location: "迅雷网络技术有限公司"
+          location: "考取北京邮电大学硕士研究生"
         },
         {
           name: "丛广林",
