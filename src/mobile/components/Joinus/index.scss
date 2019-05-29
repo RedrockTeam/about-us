@@ -1,0 +1,47 @@
+.joinus {
+  width: 92%;
+  margin: 0 auto;
+  min-height: 100vw;
+
+  .container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    .girl {
+      width: 68vw;
+      height: 60vw;
+      background: url("../../../assets/joinus.png");
+      background-size: 100% 100%;
+      margin-top: 8vw;
+    }
+
+    .p1 {
+      font-size: 5.8vw;
+      color: #2f4ba6;
+      margin-top: 5.6vw;
+    }
+
+    .p2 {
+      color: #5d71b0;
+      font-size: 4vw;
+      text-align: center;
+      margin-top: 2.2vw;
+      line-height: 6.5vw;
+      margin-bottom: 6.2vw;
+    }
+
+    button {
+      width: 33vw;
+      height: 11.5vw;
+      background: #f94141;
+      border-radius: 2vw;
+      font-size: 4.6vw;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s;
+      outline: none;
+    }
+  }
+}

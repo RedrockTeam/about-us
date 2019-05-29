@@ -40,23 +40,21 @@ export const Department = () => {
       <div className="se-title" style={{ marginTop: "8vw" }}>
         部门介绍
       </div>
-      {
-        departments.map((department, i) => {
-          const { name, introduction, photo } = department
+      {departments.map((department, i) => {
+        const { name, introduction, photo } = department
 
-          return (
-            <div className="department-card" key={i}>
-        <div className="picture">
-          <img src={photo} alt=""></img>
-        </div>
-        <div className="copywriting">
-          <div className="name">{name}</div>
-          <div className="intro">{introduction}</div>
-        </div>
-      </div>
-          )
-        })
-      }
+        return (
+          <div className="department-card" key={i}>
+            <div className="picture">
+              <img src={photo} alt="" />
+            </div>
+            <div className="copywriting">
+              <div className="name">{name}</div>
+              <div className="intro">{introduction}</div>
+            </div>
+          </div>
+        )
+      })}
     </div>
   )
 }

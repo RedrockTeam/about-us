@@ -4,7 +4,8 @@ import {
   Aboutus,
   Product,
   Destination,
-  Department
+  Department,
+  Joinus
 } from './components'
 import "./scss/normalize.scss"
 import "./scss/global.scss"
@@ -18,6 +19,7 @@ export const App = () => {
       <Product />
       <Department />
       <Destination />
+      <Joinus />
     </>
   )
 }
