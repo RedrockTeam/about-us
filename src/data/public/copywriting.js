@@ -4,40 +4,92 @@ export const copywritingData = {
     address: '地址：重庆市南岸区崇文路2号(重庆邮电大学内) 400065',
     email: 'E-mail:redrock@cqupt.edu.cn (023-62461084)'
   },
+  aboutus: {
+    icon: [
+      require('../../assets/aboutus/1.png'),
+      require('../../assets/aboutus/2.png'),
+      require('../../assets/aboutus/3.png'),
+      require('../../assets/aboutus/4.png'),
+      require('../../assets/aboutus/5.png'),
+      require('../../assets/aboutus/6.png')
+    ],
+    copywriting: `重庆邮电大学红岩网校工作站是学校唯一一个从事互联网产品开发运行的校级学生组织。该团队自创立以来，始终坚持以技术见长，充分结合同学们的话语体系和视觉风格建设网络平台，繁荣网络文化。红岩网校工作站在校团委指导下，由学生自我管理，多年来走出了一大批优秀的IT人才，深受电信运营商，以及腾讯。阿里巴巴、百度等知名互联网企业的青睐。团队先后获评”全国五四红旗团支部”“团中央新媒体专业工作室”“重庆市IT杰出青年群体”等系列荣誉。红岩网校工作站属于校级学生组织，其中包括五个部门:产品策划及运营部，视觉设计部，Web研发部，移动开发部和运维安全部。工作中各个部门相互协作、共同进步，开发建设了重邮小帮手微信公众号，掌上重邮、BTdown铺等一系列优秀的校园网络产品，深受大师生好评。红岩网校工作站被大家誉为“重邮互联网大物的摇篮”`
+  },
   carousel: [
     require('../../assets/banner/1.png'),
     require('../../assets/banner/2.png')
   ],
-  department: [
-    {
-      name: '站长团',
-      introduction: '',
-      photo: require('../../assets/department/1.png')
-    },
-    {
-      name: '产品策划及运营部',
-      introduction: '挖据用户需求，提出产品功解升级力案推厂网站文化，开展线上线下活动的推广。利庄前媒体中台宣传网校的产品和活动，负资产品荣划，原型设计进行网上的合作共证。',
-      photo: require('../../assets/department/2.png')
-    },
-    {
-      name: '视觉设计部',
-      introduction: '设计产品图形用户界面，跟踪产品视觉及体验效果。对网站进行整体创意和美术设计，移动端和PC端用户的界面设计；网页宣传海报设计；网站产品的动画及动效设计。',
-      photo: require('../../assets/department/3.png')
-    },
-    {
-      name: 'Web研发部',
-      introduction: '主要工作为将视觉页面还原为代码、设计数据库、添加逻辑完成交互。职责包括开发重邮小帮手微信号、手机端/PC 端网站开发、助力掌上重邮APP，提供强大的后台驱动等。',
-      photo: require('../../assets/department/4.png')
-    },
-    {
-      name: '移动开发部',
-      introduction: '主要负责移动客户端产品的开发，以 Java、Objective-C、 Swift、C# 为主要开发语言，涵盖 Android、iOS、Windows 三个平台，进行网校产品开发。',
-      photo: require('../../assets/department/5.png')
-    },
-    {
-      name: '运维安全部',
-      introduction: '主要负责维护网校的服务器稳定和安全，同时也负责新项目的部署、环境安全配置和性能优化，还负责了开源镜像站、OpenStack云计算资源池、源池Meatlouleste股务基等。',
-      photo: require('../../assets/department/6.png')
-    }
-  ]
+  department: {
+    copywriting: '红岩网校工作站工作模式与当前互联网产品开发模式相同。六个部门各司其职，共同协力打造服务于学生的各类产品。',
+    masters: [
+      {
+        job: '站长',
+        name: '杨瑞鑫',
+        intro: '',
+        avatar: require('../../assets/avatar/yrx.png')
+      },
+      {
+        job: '副站长',
+        name: '杨俊逸',
+        intro: '分管产品策划及运营部',
+        avatar: require('../../assets/avatar/yjy.png')
+      },
+      {
+        job: '副站长',
+        name: '方丽涵',
+        intro: '分管视觉设计部',
+        avatar: require('../../assets/avatar/flh.png')
+      },
+      {
+        job: '副站长',
+        name: '田秋怡',
+        intro: '分管Web研发部',
+        avatar: require('../../assets/avatar/tqy.png')
+      },
+      {
+        job: '副站长',
+        name: '李吉',
+        intro: '分管移动开发部',
+        avatar: require('../../assets/avatar/lj.png')
+      },
+      {
+        job: '副站长',
+        name: '李效乾',
+        intro: '分管运维安全部',
+        avatar: require('../../assets/avatar/lxq.png')
+      }
+    ],
+    departments: [
+      {
+        name: '站长团',
+        introduction: '',
+        photo: require('../../assets/department/1.png')
+      },
+      {
+        name: '产品策划及运营部',
+        introduction: '挖据用户需求，提出产品功解升级力案推厂网站文化，开展线上线下活动的推广。利庄前媒体中台宣传网校的产品和活动，负资产品荣划，原型设计进行网上的合作共证。',
+        photo: require('../../assets/department/2.png')
+      },
+      {
+        name: '视觉设计部',
+        introduction: '设计产品图形用户界面，跟踪产品视觉及体验效果。对网站进行整体创意和美术设计，移动端和PC端用户的界面设计；网页宣传海报设计；网站产品的动画及动效设计。',
+        photo: require('../../assets/department/3.png')
+      },
+      {
+        name: 'Web研发部',
+        introduction: '主要工作为将视觉页面还原为代码、设计数据库、添加逻辑完成交互。职责包括开发重邮小帮手微信号、手机端/PC 端网站开发、助力掌上重邮APP，提供强大的后台驱动等。',
+        photo: require('../../assets/department/4.png')
+      },
+      {
+        name: '移动开发部',
+        introduction: '主要负责移动客户端产品的开发，以 Java、Objective-C、 Swift、C# 为主要开发语言，涵盖 Android、iOS、Windows 三个平台，进行网校产品开发。',
+        photo: require('../../assets/department/5.png')
+      },
+      {
+        name: '运维安全部',
+        introduction: '主要负责维护网校的服务器稳定和安全，同时也负责新项目的部署、环境安全配置和性能优化，还负责了开源镜像站、OpenStack云计算资源池、源池Meatlouleste股务基等。',
+        photo: require('../../assets/department/6.png')
+      }
+    ]
+  }
 }

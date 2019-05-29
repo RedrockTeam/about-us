@@ -1,9 +1,23 @@
 import React from 'react'
-import './scss/global.scss'
+import {
+  Carousel,
+  Aboutus,
+  Product,
+  Destination,
+  Department
+} from './components'
+import "./scss/normalize.scss"
+import "./scss/global.scss"
 
 export const App = () => {
 
   return (
-    <div>mobile app</div>
+    <>
+      <Carousel />
+      <Aboutus />
+      <Product />
+      <Department />
+      <Destination />
+    </>
   )
 }

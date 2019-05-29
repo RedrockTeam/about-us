@@ -5,6 +5,7 @@ import './index.scss'
 
 export const Department = props => {
   const { title, department } = useContext(Context)
+  const { departments } = department
   const settings = {
     infinite: true,
     slidesToShow: 1,
@@ -23,7 +24,7 @@ export const Department = props => {
       <div className="carousel">
         <Slider {...settings}>
           {
-            department.map((e, i) => (
+            departments.map((e, i) => (
               <div key={i}>
                 <div className="side">
                   <div className="mark"></div>

@@ -1,0 +1,29 @@
+.carousel {
+  width: 100%;
+  height: 53vw;
+
+  img {
+    width: 100%;
+    height: 53vw;
+  }
+
+  .slick-dots {
+    position: absolute;
+    bottom: 2.5vw;
+  }
+
+  .slick-dots li button::before {
+    color: #9b92c8;
+    opacity: .8;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #f94141;
+    opacity: 1;
+  }
+
+  .slick-dots li {
+    margin: 0;
+    transform: scale(.8)
+  }
+}

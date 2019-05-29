@@ -1,0 +1,51 @@
+.destination {
+  height: 140vw;
+  margin-top: 12vw;
+  overflow: hidden;
+  margin-right: 0;
+  margin-left: 4%;
+
+  .slide-carousel {
+    width: 88vw;
+  }
+
+  .card {
+    width: 84vw;
+    height: 96vw;
+    padding: 4vw 0;
+
+    .row {
+      width: 100%;
+      height: 8vw;
+      display: flex;
+      align-items: center;
+    }
+
+    .member {
+      justify-content: space-between;
+      width: 90%;
+      margin: 0 auto;
+      color: #666666;
+      font-size: 3.6vw;
+
+      
+    }
+
+    .year {
+      font-size: 3.6vw;
+      color: #fa7f7f;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .circle::before {
+      content: '·';
+      font-size: 6vw;
+      color: #fa7f7f;
+    }
+  }
+
+  .slick-dots li {
+    width: auto;
+  }
+}

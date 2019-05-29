@@ -1,0 +1,48 @@
+.product {
+  height: 120vw;
+  margin-top: 12vw;
+  overflow: hidden;
+  margin-right: 0;
+  margin-left: 4%;
+
+  .picture {
+    width: 100%;
+    height: 48vw;
+    overflow: hidden;
+    border-radius: 2vw 2vw 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .copywriting {
+    width: 88%;
+    margin: 0 auto;
+
+    .all-title {
+      display: flex;
+      margin-top: 4.5vw;
+      
+      .title {
+        font-size: 4.6vw;
+      }
+
+      .subtitle {
+        font-size: 3.6vw;
+        margin-left: 3vw;
+        color: #97a9e2;
+      }
+    }
+
+    .product-intro {
+      color: #5d71b0;
+      font-size: 4vw;
+      margin-top: 1.5vw;
+      line-height: 6vw;
+    }
+  }
+}
