@@ -1,12 +1,13 @@
 .joinus {
   width: 92%;
   margin: 0 auto;
-  min-height: 100vw;
+  //min-height: 100vw;
 
   .container {
     display: flex;
     flex-flow: column;
     align-items: center;
+    height: 140vw;
 
     .girl {
       width: 68vw;
@@ -26,9 +27,9 @@
       color: #5d71b0;
       font-size: 4vw;
       text-align: center;
-      margin-top: 2.2vw;
+      margin-top: 2.4vw;
       line-height: 6.5vw;
-      margin-bottom: 6.2vw;
+      margin-bottom: 6.4vw;
     }
 
     button {

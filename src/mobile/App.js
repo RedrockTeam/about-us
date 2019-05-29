@@ -5,7 +5,8 @@ import {
   Product,
   Destination,
   Department,
-  Joinus
+  Joinus,
+  Footer
 } from './components'
 import "./scss/normalize.scss"
 import "./scss/global.scss"
@@ -20,6 +21,7 @@ export const App = () => {
       <Department />
       <Destination />
       <Joinus />
+      <Footer />
     </>
   )
 }

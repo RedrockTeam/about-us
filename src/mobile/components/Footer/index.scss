@@ -1,0 +1,19 @@
+footer {
+  width: 100%;
+  height: 14vw;
+  color: #4a45a0;
+  font-size: 1px;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  padding-bottom: 2vw;
+
+  p {
+    margin: 0;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}
