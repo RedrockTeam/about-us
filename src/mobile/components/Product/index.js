@@ -16,13 +16,15 @@ export const Product = () => {
 
   return (
     <div className="product">
-      <div className="title">
-        <div className="line" />
-        {title.product}
-        <div className="title-right">
-          右滑查看更多
-          <div className="small-arrow" />
+      <div className="title" style={{justifyContent: 'space-between'}}>
+        <div className="flex-center">
+          <div className="line" />
+          {title.product}
         </div>
+        <span className="title-right">
+          右滑查看更多
+          <span className="small-arrow" />
+        </span>
       </div>
       <div className="slide-carousel">
         <Slider {...settings}>
