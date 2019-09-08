@@ -17,7 +17,7 @@ export const copywritingData = {
   },
   carousel: [
     require('../../assets/banner/1.png'),
-    require('../../assets/banner/2.png')
+    require('../../assets/banner/2.jpg')
   ],
   department: {
     copywriting: '红岩网校工作站工作模式与当前互联网产品开发模式相同。六个部门各司其职，共同协力打造服务于学生的各类产品。',
@@ -87,7 +87,7 @@ export const copywritingData = {
       },
       {
         name: '运维安全部',
-        introduction: '主要负责维护网校的服务器稳定和安全，同时也负责新项目的部署、环境安全配置和性能优化，还负责了开源镜像站、OpenStack云计算资源池、源池Meatlouleste股务基等。',
+        introduction: '主要负责维护网校的服务器稳定和安全，同时也负责新项目的部署、环境安全配置和性能优化。还负责了重邮开源镜像站、Proxmox 虚拟化平台、Gitlab 服务等。',
         photo: require('../../assets/department/6.png')
       }
     ]
