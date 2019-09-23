@@ -2,7 +2,7 @@ export const products = {
   products: [
     {
       title: '重邮小帮手',
-      subtitle: '重邮关注最多的公众号',
+      subtitle: '重邮粉丝量最高的校园“全功能”微社区',
       intro: '重邮影响力最大、关注量最高的新媒体平台，“重庆十大微信公众号”。先后获得“首届全国高校优秀网络栏目提名奖”、腾讯校园应用“最佳人气产品”等殊荣。',
       picture: require('../../assets/product/cyxbs.png'),
       background: '#fffab8'
@@ -24,7 +24,7 @@ export const products = {
     {
       title: '弹幕系统',
       subtitle: '',
-      intro: '由红岩网校自主设计编写，可用于多种场景供重邮学子在线发弹幕畅所欲言！',
+      intro: '由红岩网校自主设计编写，可用于多种场景，供重邮学子在线发弹幕畅所欲言！',
       picture: require('../../assets/product/dm.png'),
       background: '#1296db'
     },

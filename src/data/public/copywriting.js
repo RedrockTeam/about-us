@@ -17,10 +17,10 @@ export const copywritingData = {
   },
   carousel: [
     require('../../assets/banner/1.png'),
-    require('../../assets/banner/2.jpg')
+    require('../../assets/banner/2.png')
   ],
   department: {
-    copywriting: '红岩网校工作站工作模式与当前互联网产品开发模式相同。六个部门各司其职，共同协力打造服务于学生的各类产品。',
+    copywriting: '红岩网校工作站工作模式与当前互联网产品开发模式相同。五个部门各司其职，共同协力打造服务于学生的各类产品。',
     masters: [
       {
         job: '站长',
