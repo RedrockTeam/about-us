@@ -1,3 +1,9 @@
+/*
+ * @Author: lin
+ * @Date: 2019-07-10 17:01:13
+ * @LastEditTime: 2019-11-17 20:34:29
+ * @FilePath: \about-us\src\data\public\copywriting.js
+ */
 export const copywritingData = {
   footer: {
     copyright: 'COPYRIGHT © 红岩网校工作站',
@@ -24,71 +30,71 @@ export const copywritingData = {
     masters: [
       {
         job: '站长',
-        name: '杨瑞鑫',
+        name: '牛奥林',
         intro: '',
-        avatar: require('../../assets/avatar/yrx.png')
+        avatar: require('../../assets/avatar/nal.jpg')
       },
       {
         job: '副站长',
-        name: '杨俊逸',
+        name: '李军环',
         intro: '分管产品策划及运营部',
-        avatar: require('../../assets/avatar/yjy.png')
+        avatar: require('../../assets/avatar/ljh.jpg')
       },
       {
         job: '副站长',
-        name: '方丽涵',
+        name: '贺雨晴',
         intro: '分管视觉设计部',
-        avatar: require('../../assets/avatar/flh.png')
+        avatar: require('../../assets/avatar/hyq.jpg')
       },
       {
         job: '副站长',
-        name: '田秋怡',
+        name: '胡仓',
         intro: '分管Web研发部',
-        avatar: require('../../assets/avatar/tqy.png')
+        avatar: require('../../assets/avatar/hc.jpg')
       },
       {
         job: '副站长',
-        name: '李吉',
+        name: '刘彦茹',
         intro: '分管移动开发部',
-        avatar: require('../../assets/avatar/lj.png')
+        avatar: require('../../assets/avatar/lyr.jpg')
       },
       {
         job: '副站长',
-        name: '李效乾',
+        name: '沈仕元',
         intro: '分管运维安全部',
-        avatar: require('../../assets/avatar/lxq.png')
+        avatar: require('../../assets/avatar/ssy.jpg')
       }
     ],
     departments: [
       {
         name: '站长团',
         introduction: '',
-        photo: require('../../assets/department/1.png')
+        photo: require('../../assets/department/leader.jpg')
       },
       {
         name: '产品策划及运营部',
         introduction: '挖掘用户需求，拥有独特严谨的产品思维，提出产品优化方案。利用新媒体平台，对活动和产品形成强有力的助推。活跃在各个部门之间，是促进各部门沟通的桥梁。',
-        photo: require('../../assets/department/2.png')
+        photo: require('../../assets/department/pm.jpg')
       },
       {
         name: '视觉设计部',
         introduction: '设计产品图形用户界面，跟踪产品视觉及体验效果。对网站进行整体创意和美术设计，移动端和PC端用户的界面设计；网页宣传海报设计；网站产品的动画及动效设计。',
-        photo: require('../../assets/department/3.png')
+        photo: require('../../assets/department/design.jpg')
       },
       {
         name: 'Web研发部',
         introduction: '主要工作为将视觉页面还原为代码、设计数据库、添加逻辑完成交互。职责包括开发重邮小帮手微信号、手机端/PC 端网站开发、助力掌上重邮APP，提供强大的后台驱动等。',
-        photo: require('../../assets/department/4.png')
+        photo: require('../../assets/department/web.jpg')
       },
       {
         name: '移动开发部',
         introduction: '主要负责移动客户端产品的开发，以 Kotlin、Java、Objective-C、 Swift为主要开发语言，涵盖 Android、iOS两个平台，进行网校产品开发。',
-        photo: require('../../assets/department/5.png')
+        photo: require('../../assets/department/mobile.jpg')
       },
       {
         name: '运维安全部',
         introduction: '主要负责维护网校的服务器稳定和安全，同时也负责新项目的部署、环境安全配置和性能优化。还负责了重邮开源镜像站、Proxmox 虚拟化平台、Gitlab 服务等。',
-        photo: require('../../assets/department/6.png')
+        photo: require('../../assets/department/sre.jpg')
       }
     ]
   }
