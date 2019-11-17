@@ -82,7 +82,7 @@ export const copywritingData = {
       },
       {
         name: '移动开发部',
-        introduction: '主要负责移动客户端产品的开发，以 Java、Objective-C、 Swift、C# 为主要开发语言，涵盖 Android、iOS、Windows 三个平台，进行网校产品开发。',
+        introduction: '主要负责移动客户端产品的开发，以 Kotlin、Java、Objective-C、 Swift为主要开发语言，涵盖 Android、iOS两个平台，进行网校产品开发。',
         photo: require('../../assets/department/5.png')
       },
       {
