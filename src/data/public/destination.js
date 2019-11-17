@@ -387,6 +387,95 @@ export const destinationData = {
           location: "腾讯科技(深圳)有限公司"
         }
       ]
+    },
+    {
+      year: "2015级",
+      members: [
+        {
+          name: "刘力塽",
+          location: "香港城市大学"
+        },
+        {
+          name: "吴涛",
+          location: "香港理工大学"
+        },
+        {
+          name: "尹欢欢",
+          location: "考取重庆大学研究生"
+        },
+        {
+          name: "李相玲",
+          location: "腾讯计算机系统有限公司"
+        },
+        {
+          name: "李佳蔚",
+          location: "同圆设计院"
+        },
+        {
+          name: "郑昱旋",
+          location: "广州腾讯科技有限公司"
+        },
+        {
+          name: "曾名杨",
+          location: "腾讯计算机系统有限公司"
+        },
+        {
+          name: "叶舟",
+          location: "保送北京邮电大学研究生"
+        },
+        {
+          name: "庄智",
+          location: "腾讯科技(成都)有限公司"
+        },
+        {
+          name: "秦泽瑞",
+          location: "华为技术有限公司"
+        },
+        {
+          name: "徐书展",
+          location: "北京字节跳动科技有限公司"
+        },
+        {
+          name: "洪志凌",
+          location: "腾讯计算机系统有限公司"
+        },
+        {
+          name: "吴随",
+          location: "考取北京航空航天大学研究生"
+        },
+        {
+          name: "杨彬",
+          location: "网易游戏"
+        },
+        {
+          name: "李展",
+          location: "腾讯科技（深圳）有限公司"
+        },
+        {
+          name: "王炜松",
+          location: "考取电子科技大学研究生"
+        },
+        {
+          name: "张曦镱",
+          location: "考取电子科技大学研究生"
+        },
+        {
+          name: "陈馨怡",
+          location: "阿里云计算有限公司"
+        },
+        {
+          name: "张涛",
+          location: "北京字节跳动科技有限公司"
+        },
+        {
+          name: "郑杰",
+          location: "北京字节跳动科技有限公司"
+        },
+        {
+          name: "李立平",
+          location: "北京字节跳动科技有限公司"
+        }
+      ]
     }
   ].reverse()
 }
